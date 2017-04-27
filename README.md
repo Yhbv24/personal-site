@@ -1,6 +1,7 @@
-# AshPortfolioSite
+# Ash Laidlaw
+#### Web Developer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+Welcome to my portfolio. I am a full-stack web developer based in Portland, OR.
 
 ## Development server
 
