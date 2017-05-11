@@ -1,8 +1,79 @@
+/* ----- General page styling ----- */
+
 #about-title {
   font-family: 'Abril Fatface', cursive;
   font-size: 15em;
+  color: #444;
 }
 
 #about-photo {
-  width: 100%;
+  width: 400px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.icons {
+  height: 150px;
+}
+
+.icon-row {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* ----- Facebook Icon ----- */
+
+#facebook-icon {
+  transition: 0.5s;
+}
+
+#facebook-icon:hover {
+  transition: 0.5s;
+  transform: rotateX(30deg);
+}
+
+/* ----- LinkedIn Icon ----- */
+
+#linkedin-icon {
+  transition: 0.5s;
+}
+
+#linkedin-icon:hover {
+  transition: 0.5s;
+  transform: rotateX(30deg);
+}
+
+/* ----- GitHub Icon ----- */
+
+#github-icon {
+  transition: 0.5s;
+}
+
+#github-icon:hover {
+  transition: 0.5s;
+  transform: rotateX(30deg);
+}
+
+/* ----- Email Icon ----- */
+
+#email-icon {
+  transition: 0.5s;
+}
+
+#email-icon:hover {
+  transition: 0.5s;
+  transform: rotateX(30deg);
+}
+
+/* ----- Media screens ----- */
+
+@media screen and (max-width: 786px) {
+  .icons {
+    height: 40px;
+  }
+
+  #about-photo {
+    width: 100%;
+  }
 }

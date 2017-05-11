@@ -1,11 +1,10 @@
 .wrap {
   font-family: 'Abril Fatface', cursive;
-  width: 70%;
   margin: 0 auto;
+  color: #444;
 }
 
 #hello {
-  margin: 0 auto;
   margin-top: 10vh;
   margin-bottom: -70px;
   font-size: 20em;
@@ -17,9 +16,10 @@
 
 @media screen and (max-width: 768px) {
   #hello {
-    font-size: 10em;
+    font-size: 8em;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
   }
 
   #welcome-body {
