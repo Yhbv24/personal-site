@@ -15,7 +15,17 @@
 }
 
 .home {
+  transition: 0.3s;
   background-color: #696D7D;
+}
+
+.home:hover {
+  transition: 0.3s;
+}
+
+a {
+  color: #FFF2F2;
+  text-decoration: none;
 }
 
 .work {
