@@ -2,7 +2,7 @@
 
 #about-title {
   font-family: 'Abril Fatface', cursive;
-  font-size: 15em;
+  font-size: 5em;
   color: #444;
 }
 
@@ -68,7 +68,13 @@
 
 /* ----- Media screens ----- */
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 750px) {
+  #about-title {
+    font-size: 5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .icons {
     height: 40px;
   }
