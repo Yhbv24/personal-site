@@ -62,3 +62,39 @@ a {
   background-color: #9A9372;
   letter-spacing: 5px;
 }
+
+@media screen and (max-width: 750px) {
+  .home,
+  .work,
+  .photography,
+  .about {
+    height: 40px;
+    font-size: 3em;
+    padding-top: 8px;
+    text-align: center;
+  }
+
+  .home:hover {
+    transition: 0.3s;
+    background-color: #363A4A;
+    letter-spacing: 3px;
+  }
+
+  .work:hover {
+    transition: 0.3s;
+    background-color: #3C5F50;
+    letter-spacing: 3px;
+  }
+
+  .photography:hover {
+    transition: 0.3s;
+    background-color: #5A6C54;
+    letter-spacing: 3px;
+  }
+
+  .about:hover {
+    transition: 0.3s;
+    background-color: #9A9372;
+    letter-spacing: 3px;
+  }
+}
