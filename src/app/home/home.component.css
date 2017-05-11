@@ -1,0 +1,36 @@
+.wrap {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.show {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.hide {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#hello {
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: -70px;
+  font-size: 20em;
+}
+
+#welcome-body {
+  font-size: 1.7em;
+}
+
+@media screen and (max-width: 768px) {
+  #hello {
+    font-size: 10em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #welcome-body {
+    font-size: 1.4em;
+  }
+}
