@@ -27,6 +27,7 @@ a {
 .home:hover {
   transition: 0.3s;
   background-color: #363A4A;
+  letter-spacing: 5px;
 }
 
 .work {
@@ -37,6 +38,7 @@ a {
 .work:hover {
   transition: 0.3s;
   background-color: #3C5F50;
+  letter-spacing: 5px;
 }
 
 .photography {
@@ -47,6 +49,7 @@ a {
 .photography:hover {
   transition: 0.3s;
   background-color: #5A6C54;
+  letter-spacing: 5px;
 }
 
 .about {
@@ -57,4 +60,5 @@ a {
 .about:hover {
   transition: 0.3s;
   background-color: #9A9372;
+  letter-spacing: 5px;
 }

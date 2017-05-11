@@ -1,15 +1,7 @@
 .wrap {
   font-family: 'Abril Fatface', cursive;
-}
-
-.show {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-.hide {
-  opacity: 0;
-  transition: 0.5s;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #hello {
