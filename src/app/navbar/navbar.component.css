@@ -1,0 +1,60 @@
+.wrap {
+  font-family: 'Poiret One', cursive;
+  font-size: 0.4em;
+}
+
+a {
+  color: #FFF2F2;
+  text-decoration: none;
+}
+
+.home,
+.work,
+.photography,
+.about {
+  color: white;
+  height: 70px;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.home {
+  transition: 0.3s;
+  background-color: #696D7D;
+}
+
+.home:hover {
+  transition: 0.3s;
+  background-color: #363A4A;
+}
+
+.work {
+  transition: 0.3s;
+  background-color: #6F9283;
+}
+
+.work:hover {
+  transition: 0.3s;
+  background-color: #3C5F50;
+}
+
+.photography {
+  transition: 0.3s;
+  background-color: #8D9F87;
+}
+
+.photography:hover {
+  transition: 0.3s;
+  background-color: #5A6C54;
+}
+
+.about {
+  transition: 0.3s;
+  background-color: #CDC6A5;
+}
+
+.about:hover {
+  transition: 0.3s;
+  background-color: #9A9372;
+}
