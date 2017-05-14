@@ -6,4 +6,9 @@
   font-family: 'Abril Fatface', cursive;
   font-size: 5em;
   color: #444;
+  margin-bottom: 50px;
+}
+
+img {
+  height: 500px;
 }

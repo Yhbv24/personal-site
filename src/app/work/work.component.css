@@ -1,3 +1,8 @@
+body {
+  height: 90vh;
+  overflow: hidden;
+}
+
 .container {
   margin-top: 10px;
 }
@@ -9,8 +14,12 @@
 }
 
 .left-section {
-  height: 100vh;
+  height: 60vh;
   overflow: scroll;
+}
+
+.right-section {
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 #work-title {
@@ -23,6 +32,13 @@
 a {
   text-decoration: none;
   color: black;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #363A4A;
+  transition: 0.3s;
 }
 
 .panel-heading {
@@ -38,7 +54,11 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
-  transition: 0.5s;
+}
+
+.project-content {
+  display: none;
+  transition: 0.3s;
 }
 
 .bob-ross {
@@ -51,4 +71,18 @@ a {
 
 .shoe-store {
   background-image: url(../../assets/shoestore-1.jpg);
+}
+
+/* ----- Media Screens ----- */
+
+@media screen and (max-width: 786px) {
+  .left-section {
+    height: auto;
+    overflow: auto;
+  }
+
+  body {
+    height: auto;
+    overflow: auto;
+  }
 }

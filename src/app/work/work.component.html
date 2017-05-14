@@ -1,61 +1,69 @@
-
-<div class="container">
-  <div class="wrap">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="center">
-          <h1 id="work-title">Projects</h1>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 left-section">
-        <div class="panel panel-default" id="bob-ross" (mouseenter)="bobRossToggle()">
-          <div class="panel-heading"><a href="https://github.com/Yhbv24/bob-ross" target="_blank">Bob Ross Data Visualization</a></div>
-          <div class="panel-body">
-            <h4>Project Goal</h4>
-            <p>The goal of this project was to expand my knowledge of the D3 library for JavaScript in a fun way. It was built by a team of six, and required us to parse data from a CSV into a JSON, and then write a custom function to turn each episode's data into aggregate data from each season.</p>
-            <p>Once we had the data, we were able to turn it into a bar graph, line graph, and scatterplot using D3.</p>
-            <h4>Technologies Used</h4>
-            <ul>
-              <li>JavaScript / Typescript | Primary Language</li>
-              <li>Angular 2 | MVC</li>
-              <li>Firebase | Database</li>
-              <li>D3 | Data Visualization Library</li>
-            </ul>
-          </div>
-        </div>
-        <div class="panel panel-default" id="hockey-team" (mouseenter)="hockeyTeamToggle()">
-          <div class="panel-heading"><a href="https://github.com/Yhbv24/hockey-team" target="_blank">Hockey Team Manager</a></div>
-          <div class="panel-body">
-            <h4>Project Goal</h4>
-            <p>The goal of this project was to learn how to create a web app with full CRUD functionality using a Firebase database. It was meant to be a team management application, where a "manager" can use a password-protected section to add/edit/remove staff and players, and everyone else can view the roster.</p>
-            <p>Each person on the roster has his/her own tile, which can be clicked on to see more about that particular person using dynamic routing. Since I have an interest in hockey, I thought this would be a fun way to learn how to create the app.</p>
-            <h4>Technologies Used</h4>
-            <ul>
-              <li>JavaScript / TypeScript | Primary Language</li>
-              <li>Angular 2 | MVC</li>
-              <li>Firebase | Database</li>
-            </ul>
-          </div>
-        </div>
-        <div class="panel panel-default" id="shoe-store" (mouseenter)="shoeStoreToggle()">
-          <div class="panel-heading"><a href="https://github.com/Yhbv24/shoe-store-locator" target="_blank">Shoe Store Manager</a></div>
-          <div class="panel-body">
-            <h4>Project Goal</h4>
-            <p>The goal of this project was to learn how to create a web app with full CRUD functionality using PHP, MAMP, and an MVC to help control the data and keep everything organized. It makes use of a many-to-many relationship using a table for shoe brands, a table for shoe stores, and a join table to connect the two.</p>
-            <h4>Technologies Used</h4>
-            <ul>
-              <li>PHP | Primary Language</li>
-              <li>Silex | MVC</li>
-              <li>Twig | Templating Engine</li>
-              <li>mySQL | Database</li>
-            </ul>
+<body>
+  <div class="container">
+    <div class="wrap">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="center">
+            <h1 id="work-title">Projects</h1>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 right-section" [class.bob-ross]="bobRossHover" [class.hockey-team]="hockeyTeamHover" [class.shoe-store]="shoeStoreHover">
+      <div class="row">
+        <div class="col-sm-6 left-section">
+          <div class="panel panel-default" id="bob-ross" (mouseenter)="bobRossToggle()" (mouseleave)="projectContentToggle()">
+            <div class="panel-heading"><a href="https://github.com/Yhbv24/bob-ross" target="_blank">Bob Ross Data Visualization</a></div>
+            <div class="panel-body">
+              <h4>Project Goal</h4>
+              <p>The goal of this project was to expand my knowledge of the D3 library for JavaScript in a fun way. It was built by a team of six, and required us to parse data from a CSV into a JSON, and then write a custom function to turn each episode's data into aggregate data from each season.</p>
+              <p>Once we had the data, we were able to turn it into a bar graph, line graph, and scatterplot using D3.</p>
+              <h4>Technologies Used</h4>
+              <ul>
+                <li>JavaScript / Typescript | Primary Language</li>
+                <li>Angular 2 | MVC</li>
+                <li>Firebase | Database</li>
+                <li>D3 | Data Visualization Library</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default" id="hockey-team" (mouseenter)="hockeyTeamToggle()" (mouseleave)="projectContentToggle()">
+            <div class="panel-heading"><a href="https://github.com/Yhbv24/hockey-team" target="_blank">Hockey Team Manager</a></div>
+            <div class="panel-body">
+              <h4>Project Goal</h4>
+              <p>The goal of this project was to learn how to create a web app with full CRUD functionality using a Firebase database. It was meant to be a team management application, where a "manager" can use a password-protected section to add/edit/remove staff and players, and everyone else can view the roster.</p>
+              <p>Each person on the roster has his/her own tile, which can be clicked on to see more about that particular person using dynamic routing. Since I have an interest in hockey, I thought this would be a fun way to learn how to create the app.</p>
+              <h4>Technologies Used</h4>
+              <ul>
+                <li>JavaScript / TypeScript | Primary Language</li>
+                <li>Angular 2 | MVC</li>
+                <li>Firebase | Database</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default" id="shoe-store" (mouseenter)="shoeStoreToggle()" (mouseleave)="projectContentToggle()">
+            <div class="panel-heading"><a href="https://github.com/Yhbv24/shoe-store-locator" target="_blank">Shoe Store Manager</a></div>
+            <div class="panel-body">
+              <h4>Project Goal</h4>
+              <p>The goal of this project was to learn how to create a web app with full CRUD functionality using PHP, MAMP, and an MVC to help control the data and keep everything organized. It makes use of a many-to-many relationship using a table for shoe brands, a table for shoe stores, and a join table to connect the two.</p>
+              <h4>Technologies Used</h4>
+              <ul>
+                <li>PHP | Primary Language</li>
+                <li>Silex | MVC</li>
+                <li>Twig | Templating Engine</li>
+                <li>mySQL | Database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 right-section" [class.bob-ross]="bobRossHover" [class.hockey-team]="hockeyTeamHover" [class.shoe-store]="shoeStoreHover">
+          <div [class.project-content]="!projectContent" >
+            <h3>Here are some of the projects I've worked on. The languages I used for these projects are:</h3>
+            <ul>
+              <li>JavaScript | TypeScript | Angular 2 | Ember</li>
+              <li>PHP | Twig | Silex | MAMP</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</body>
