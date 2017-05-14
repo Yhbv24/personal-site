@@ -14,6 +14,10 @@
   font-size: 1.7em;
 }
 
+.red {
+  color: red;
+}
+
 @media screen and (max-width: 750px) {
   #hello {
     font-size: 8em;

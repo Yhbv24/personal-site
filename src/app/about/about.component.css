@@ -1,5 +1,9 @@
 /* ----- General page styling ----- */
 
+.container {
+  margin-top: 10px;
+}
+
 #about-title {
   font-family: 'Abril Fatface', cursive;
   font-size: 5em;

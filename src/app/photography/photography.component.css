@@ -1,0 +1,9 @@
+.container {
+  margin-top: 10px;
+}
+
+#photo-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5em;
+  color: #444;
+}

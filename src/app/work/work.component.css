@@ -1,8 +1,54 @@
 .container {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .panel {
+  font-family: 'Reem Kufi', sans-serif;
   border-radius: 0;
   box-shadow: 0;
+}
+
+.left-section {
+  height: 100vh;
+  overflow: scroll;
+}
+
+#work-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5em;
+  color: #444;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.panel-heading {
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 0;
+  background-color: #E2BABB;
+}
+
+.bob-ross,
+.hockey-team,
+.shoe-store {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+.bob-ross {
+  background-image: url(../../assets/bobross-4.jpg);
+}
+
+.hockey-team {
+  background-image: url(../../assets/hockeyteam-1.jpg);
+}
+
+.shoe-store {
+  background-image: url(../../assets/shoestore-1.jpg);
 }
