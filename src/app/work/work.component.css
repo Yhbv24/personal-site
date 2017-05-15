@@ -53,6 +53,7 @@ a:hover {
   background-size: contain;
   height: 60vh;
   transition: 0.5s;
+  margin-top: 30px;
 }
 
 .bob-ross {
@@ -73,7 +74,7 @@ a:hover {
 
 /* ----- Media Screens ----- */
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 750px) {
   .left-section {
     height: auto;
     overflow: auto;
@@ -82,5 +83,12 @@ a:hover {
   body {
     height: auto;
     overflow: auto;
+  }
+
+  .bob-ross,
+  .hockey-team,
+  .shoe-store,
+  .laptop {
+    margin-top: 0;
   }
 }

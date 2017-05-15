@@ -9,6 +9,30 @@
   margin-bottom: 50px;
 }
 
+.card { /* Image container */
+  position: relative;
+  overflow: hidden;
+}
+
 img {
-  height: 500px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+img:hover {
+  width: 100%;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 750px) {
+  img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  img:hover {
+    width: 100%;
+    transform: none;
+  }
 }
