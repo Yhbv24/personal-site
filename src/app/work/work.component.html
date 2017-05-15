@@ -9,8 +9,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 left-section">
-          <div class="panel panel-default" id="bob-ross" (mouseenter)="bobRossToggle()" (mouseleave)="projectContentToggle()">
+        <div class="col-sm-5 left-section">
+          <div class="panel panel-default" (click)="bobRossToggle()">
             <div class="panel-heading"><a href="https://github.com/Yhbv24/bob-ross" target="_blank">Bob Ross Data Visualization</a></div>
             <div class="panel-body">
               <h4>Project Goal</h4>
@@ -25,7 +25,7 @@
               </ul>
             </div>
           </div>
-          <div class="panel panel-default" id="hockey-team" (mouseenter)="hockeyTeamToggle()" (mouseleave)="projectContentToggle()">
+          <div class="panel panel-default" (click)="hockeyTeamToggle()">
             <div class="panel-heading"><a href="https://github.com/Yhbv24/hockey-team" target="_blank">Hockey Team Manager</a></div>
             <div class="panel-body">
               <h4>Project Goal</h4>
@@ -39,7 +39,7 @@
               </ul>
             </div>
           </div>
-          <div class="panel panel-default" id="shoe-store" (mouseenter)="shoeStoreToggle()" (mouseleave)="projectContentToggle()">
+          <div class="panel panel-default" (click)="shoeStoreToggle()">
             <div class="panel-heading"><a href="https://github.com/Yhbv24/shoe-store-locator" target="_blank">Shoe Store Manager</a></div>
             <div class="panel-body">
               <h4>Project Goal</h4>
@@ -54,14 +54,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 right-section" [class.bob-ross]="bobRossHover" [class.hockey-team]="hockeyTeamHover" [class.shoe-store]="shoeStoreHover">
-          <div [class.project-content]="!projectContent" >
-            <h3>Here are some of the projects I've worked on. The languages I used for these projects are:</h3>
-            <ul>
-              <li>JavaScript | TypeScript | Angular 2 | Ember</li>
-              <li>PHP | Twig | Silex | MAMP</li>
-            </ul>
-          </div>
+        <div class="col-sm-7">
+            <div [class.laptop]="laptopHover" [class.bob-ross]="bobRossHover" [class.hockey-team]="hockeyTeamHover" [class.shoe-store]="shoeStoreHover">
+            </div>
         </div>
       </div>
     </div>

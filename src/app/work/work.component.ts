@@ -9,50 +9,43 @@ export class WorkComponent implements OnInit {
   bobRossHover: boolean = false;
   hockeyTeamHover: boolean = false;
   shoeStoreHover: boolean = false;
-  projectContent: boolean = true;
+  laptopHover: boolean = true;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  projectContentToggle() {
-    this.projectContent = true;
-    this.bobRossHover = false;
-    this.hockeyTeamHover = false;
-    this.shoeStoreHover = false;
-  }
-
   bobRossToggle() {
     if (!this.bobRossHover) {
       this.bobRossHover = true;
-      this. projectContent = false;
-    } else {
+      this.laptopHover = false;
       this.hockeyTeamHover = false;
       this.shoeStoreHover = false;
-      this. projectContent = false;
+    } else {
+      this.bobRossHover = false;
     }
   }
 
   hockeyTeamToggle() {
     if (!this.hockeyTeamHover) {
       this.hockeyTeamHover = true;
-      this. projectContent = false;
-    } else {
       this.bobRossHover = false;
+      this.laptopHover = false;
       this.shoeStoreHover = false;
-      this. projectContent = false;
+    } else {
+      this.hockeyTeamHover = false;
     }
   }
 
   shoeStoreToggle() {
     if (!this.shoeStoreHover) {
       this.shoeStoreHover = true;
-      this. projectContent = false;
-    } else {
+      this.laptopHover = false;
       this.bobRossHover = false;
       this.hockeyTeamHover = false;
-      this. projectContent = false;
+    } else {
+      this.shoeStoreHover = false;
     }
   }
 

@@ -6,15 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  helloHover: boolean = false;
-
-  helloHoverToggle() {
-    if (this.helloHover) {
-      this.helloHover = false;
-    } else {
-      this.helloHover = true;
-    }
-  }
 
   constructor() { }
 

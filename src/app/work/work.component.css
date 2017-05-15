@@ -11,15 +11,12 @@ body {
   font-family: 'Reem Kufi', sans-serif;
   border-radius: 0;
   box-shadow: 0;
+  cursor: pointer;
 }
 
 .left-section {
   height: 60vh;
   overflow: scroll;
-}
-
-.right-section {
-  font-family: 'Reem Kufi', sans-serif;
 }
 
 #work-title {
@@ -50,27 +47,28 @@ a:hover {
 
 .bob-ross,
 .hockey-team,
-.shoe-store {
+.shoe-store,
+.laptop {
   background-repeat: no-repeat;
   background-size: contain;
-  height: 100vh;
-}
-
-.project-content {
-  display: none;
-  transition: 0.3s;
+  height: 60vh;
+  transition: 0.5s;
 }
 
 .bob-ross {
-  background-image: url(../../assets/bobross-4.jpg);
+  background-image: url(../../assets/bob-ross.jpg);
 }
 
 .hockey-team {
-  background-image: url(../../assets/hockeyteam-1.jpg);
+  background-image: url(../../assets/team-manager.jpg);
 }
 
 .shoe-store {
-  background-image: url(../../assets/shoestore-1.jpg);
+  background-image: url(../../assets/shoe-shopper.jpg);
+}
+
+.laptop {
+  background-image: url(../../assets/laptop-about.jpg);
 }
 
 /* ----- Media Screens ----- */
