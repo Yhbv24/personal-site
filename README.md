@@ -1,7 +1,7 @@
 # Ash Laidlaw
 #### Web Developer
 
-Welcome to my portfolio. I am a full-stack web developer based in Portland, OR. I am familiar with:
+Welcome to my portfolio site. I am a full-stack web developer based in Portland, OR. I am familiar with:
    * JavaScript
    * PHP
    * HTML
@@ -15,6 +15,9 @@ Welcome to my portfolio. I am a full-stack web developer based in Portland, OR. 
 ### Website Information
 
 ashlaidlaw.com
+
+[!Main Site Screenshot]
+(/src/assets/site-screenshot.jpg)
 
 ### Copyright Information
 

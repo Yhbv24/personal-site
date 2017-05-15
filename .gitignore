@@ -9,6 +9,7 @@
 /node_modules
 /bower_components
 /src/app/api-keys.ts
+/src/assets/gallery
 
 # IDEs and editors
 /.idea
