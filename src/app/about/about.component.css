@@ -17,14 +17,6 @@ body {
   transition: 5s;
 }
 
-.showing {
-  opacity: 1;
-}
-
-.hiding {
-  opacity: 0;
-}
-
 .container {
   margin-top: 10px;
 }
