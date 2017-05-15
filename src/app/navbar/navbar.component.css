@@ -1,6 +1,7 @@
-.wrap {
+body {
   font-family: 'Poiret One', cursive;
   font-size: 0.4em;
+  overflow: hidden;
 }
 
 a {
