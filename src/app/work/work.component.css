@@ -7,6 +7,10 @@ body {
   margin-top: 10px;
 }
 
+ul {
+  text-align: justify;
+}
+
 .panel {
   font-family: 'Reem Kufi', sans-serif;
   border-radius: 0;
