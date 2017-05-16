@@ -1,42 +1,43 @@
-.container {
-  margin-top: 10px;
-}
-
-#photo-title {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 5em;
-  color: #444;
-  margin-bottom: 50px;
-}
-
-.card { /* Image container */
-  position: relative;
+body {
   overflow: hidden;
 }
 
-img {
-  width: 100%;
-  transition: 0.3s;
+[class*="bg"] {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
-img:hover {
-  width: 100%;
-  transform: scale(1.1);
-  transition: 0.3s;
+.bg-1 {
+  background-image: url(../../assets/gallery/DSC02951.jpg);
 }
 
-@media screen and (max-width: 750px) {
-  #photo-title {
-    font-size: 4em;
-  }
+.bg-2 {
+  background-image: url(../../assets/gallery/DSC03015.jpg);
+}
 
-  img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+.bg-3 {
+  background-image: url(../../assets/gallery/DSC03148.jpg);
+}
 
-  img:hover {
-    width: 100%;
-    transform: none;
-  }
+.bg-4 {
+  background-image: url(../../assets/gallery/DSC03347.jpg);
+}
+
+.bg-5 {
+  background-image: url(../../assets/gallery/DSC03038.jpg);
+}
+
+.bg-6 {
+  background-image: url(../../assets/gallery/DSC02911.jpg);
+}
+
+.bg-7 {
+  background-image: url(../../assets/gallery/DSC02996.jpg);
+}
+
+.bg-8 {
+  background-image: url(../../assets/gallery/DSC03052.jpg);
 }
