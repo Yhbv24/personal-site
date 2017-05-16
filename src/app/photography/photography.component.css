@@ -26,6 +26,10 @@ img:hover {
 }
 
 @media screen and (max-width: 750px) {
+  #photo-title {
+    font-size: 4em;
+  }
+
   img {
     width: 100%;
     margin-bottom: 20px;

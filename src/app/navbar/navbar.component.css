@@ -1,6 +1,5 @@
 body {
   font-family: 'Poiret One', cursive;
-  font-size: 0.4em;
   overflow: hidden;
 }
 
@@ -15,7 +14,7 @@ a {
 .about {
   color: white;
   height: 70px;
-  font-size: 4em;
+  font-size: 1.7em;
   padding-top: 18px;
   text-align: center;
 }
@@ -70,7 +69,7 @@ a {
   .photography,
   .about {
     height: 40px;
-    font-size: 3em;
+    font-size: 1.2em;
     padding-top: 8px;
     text-align: center;
   }
