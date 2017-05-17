@@ -30,12 +30,24 @@ a {
   letter-spacing: 5px;
 }
 
+.home-active {
+  transition: 0.3s;
+  background-color: #363A4A;
+  letter-spacing: 5px;
+}
+
 .work {
   transition: 0.3s;
   background-color: #6F9283;
 }
 
 .work:hover {
+  transition: 0.3s;
+  background-color: #3C5F50;
+  letter-spacing: 5px;
+}
+
+.work-active {
   transition: 0.3s;
   background-color: #3C5F50;
   letter-spacing: 5px;
@@ -52,12 +64,24 @@ a {
   letter-spacing: 5px;
 }
 
+.photo-active {
+  transition: 0.3s;
+  background-color: #5A6C54;
+  letter-spacing: 5px;
+}
+
 .about {
   transition: 0.3s;
   background-color: #CDC6A5;
 }
 
 .about:hover {
+  transition: 0.3s;
+  background-color: #9A9372;
+  letter-spacing: 5px;
+}
+
+.about-active {
   transition: 0.3s;
   background-color: #9A9372;
   letter-spacing: 5px;

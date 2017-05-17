@@ -2,23 +2,23 @@
   <body>
     <div class="row">
       <a routerLink="">
-        <div class="col-sm-3 home">
-          <p id="home-text">Home</p>
+        <div class="col-sm-3 home" (click)="isHomeActive()" [class.home-active]="homeActive">
+          <p>Home</p>
         </div>
       </a>
       <a routerLink="work">
-        <div class="col-sm-3 work">
-          <a id="work-text">Work</a>
+        <div class="col-sm-3 work" (click)="isWorkActive()" [class.work-active]="workActive">
+          <p>Work</p>
         </div>
       </a>
       <a routerLink="photography">
-        <div class="col-sm-3 photography">
-          <a id="photography-text">Photography</a>
+        <div class="col-sm-3 photography" (click)="isPhotoActive()" [class.photo-active]="photoActive">
+          <p>Photography</p>
         </div>
       </a>
       <a routerLink="about">
-        <div class="col-sm-3 about">
-          <a id="about-text">About</a>
+        <div class="col-sm-3 about" (click)="isAboutActive()" [class.about-active]="aboutActive">
+          <p>About</p>
         </div>
       </a>
     </div>

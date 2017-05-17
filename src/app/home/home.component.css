@@ -14,23 +14,6 @@ body {
   font-size: 1.7em;
 }
 
-.red {
-  color: red;
-}
-
-.cta {
-  margin: 0 auto;
-  margin-top: 30px;
-  border: 2px solid black;
-  width: 200px;
-  transition: 0.3s;
-}
-
-.cta:hover {
-  background-color: red;
-  transition: 0.3s;
-}
-
 #see-the-work {
   margin: 20px 20px;
 }
