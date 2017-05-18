@@ -1,29 +1,22 @@
 <html>
   <body>
-    <div class="container">
+    <div class="container" [@loadAbout]>
       <div class="row">
-        <div class="col-sm-12">
-          <div class="center">
-            <h1 id="about-title">About Me</h1>
+        <div class="col-sm-5">
+          <div id="about-copy">
+            <h4>Hey! Thanks for stopping by. My name is Ash, and I'm a web developer based in Portland, OR. I got into the field because I enjoy working with people, and working on fun, challenging projects. I am interested in front-end development, design, and UX. I enjoy the design process, and I enjoy collaborating and bringing ideas to life.</h4><br>
+            <h4>The languages I use most often are JavaScript (TypeScript), CSS (SASS), PHP, jQuery, and the Angular 2 (Angular 4) framework, including animations. I am always striving to learn and implement new technologies, and I enjoy problem solving. I feel like programming is a large puzzle. It can be frustrating, but there's nothing like overcoming the challenges and seeing a project come into its own. I am always open to experimenting, and my current goal is to further my knowledge of Angular, while also learning React.</h4><br>
+            <h4>I'm currently looking for work as a developer, and I can often be found at meetups around town that have to do with JavaScript, design, and UX. I can also be found on hikes, taking photos, and enjoying beers with friends. I hope to hear from you. Let's get a cup of coffee!</h4>
           </div>
         </div>
-      </div>
-      <div class="row icon-row">
-        <div class="center">
-          <div class="col-sm-12">
-            <a href="https://www.facebook.com/ashlaidlaw1" target="_blank"><img src="../assets/facebook-icon.svg" alt="Check out my Facebook!" class="icons" id="facebook-icon"></a>
-            <a href="mailto: ashlaidlaw@gmail.com"><img src="../assets/email-icon.svg" alt="Send me an email!" class="icons" id="email-icon"></a>
-            <a href="https://github.com/Yhbv24" target="_blank"><img src="../assets/github-icon.svg" alt="Check out my GitHub!" class="icons" id="linkedin-icon"></a>
-            <a href="https://www.linkedin.com/in/ash-laidlaw/" target="_blank"><img src="../assets/linkedin-icon.svg" alt="Check out my LinkedIn!" class="icons" id="linkedin-icon"></a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="about-copy" [@loadAbout]>
-            <h4>Hey! Thanks for stopping by. My name is Ash, and I'm a web developer based in Portland, OR. I got into the field because I enjoy working with people, and working on fun, challenging projects. Portland is a great city, and it's really becoming a destination for technology.</h4>
-            <h4>The main languages with which I work are JavaScript and PHP, and I am familiar with various frameworks for each language. I am also familiar with the Drupal CMS. The two frameworks I know best are Angular 2 and Silex, although I am always learning and researching new technologies and frameworks, and how best to apply them.</h4>
-            <h4>I enjoy going to the many tech meetups in Portland, and learning as much as I can. I also enjoy photography, going for hikes, and enjoying the myriad of microbrewewries with friends.</h4>
+        <div class="col-sm-7">
+          <img src="./../assets/about.jpg" alt="A photo of Ash" id="about-image">
+          <div class="icons">
+            <h4>Click a link to contact me or read more!</h4>
+            <a href="mailto: ashlaidlaw@gmail.com"><img src="./../assets/email-icon.svg" alt="Send me an email"></a>
+            <a href="https://www.linkedin.com/in/ash-laidlaw/"><img src="./../assets/linkedin-icon.svg" alt="Link to my LinkedIn account"></a>
+            <a href="https://github.com/Yhbv24"><img src="./../assets/github-icon.svg" alt="Link to my GitHub account"></a>
+            <a href="https://www.facebook.com/ashlaidlaw1"><img src="./../assets/facebook-icon.svg" alt="Link to my Facebook account"></a>
           </div>
         </div>
       </div>

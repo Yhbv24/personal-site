@@ -9,7 +9,7 @@ import { trigger, state, style, animate, transition, keyframes } from '@angular/
   animations: [
     trigger('loadAbout', [
       transition('void => *', [
-        animate(3000, keyframes([
+        animate(500, keyframes([
           style({opacity: 0}),
           style({opacity: 1}),
         ]))

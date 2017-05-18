@@ -17,7 +17,7 @@ Welcome to my portfolio site. I am a full-stack web developer based in Portland,
 
 ### Website Information
 
-http://ashlaidlaw.com
+http://www.ashlaidlaw.com
 
 ![Site Screenshot](/src/assets/site-screenshot.jpg)
 

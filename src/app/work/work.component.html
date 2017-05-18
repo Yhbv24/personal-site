@@ -2,13 +2,6 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <div class="center">
-            <h1 id="work-title">Projects</h1>
-          </div>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-sm-5 left-section">
           <div class="panel panel-default" (click)="bobRossToggle()">
             <div class="panel-heading"><a href="https://github.com/Yhbv24/bob-ross" target="_blank">Bob Ross Data Visualization</a></div>
@@ -54,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-7">
+        <div class="col-sm-7 right-section">
             <div [class.laptop]="laptopHover" [class.bob-ross]="bobRossHover" [class.hockey-team]="hockeyTeamHover" [class.shoe-store]="shoeStoreHover">
             </div>
         </div>
