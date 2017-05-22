@@ -25,54 +25,16 @@
 
 .icons img {
   height: 50px;
+  transition: 0.3s;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 .icons h4 {
   font-weight: 300;
-}
-
-/* ----- Facebook Icon ----- */
-
-#facebook-icon {
-  transition: 0.5s;
-}
-
-#facebook-icon:hover {
-  transition: 0.5s;
-  transform: rotateX(30deg);
-}
-
-/* ----- LinkedIn Icon ----- */
-
-#linkedin-icon {
-  transition: 0.5s;
-}
-
-#linkedin-icon:hover {
-  transition: 0.5s;
-  transform: rotateX(30deg);
-}
-
-/* ----- GitHub Icon ----- */
-
-#github-icon {
-  transition: 0.5s;
-}
-
-#github-icon:hover {
-  transition: 0.5s;
-  transform: rotateX(30deg);
-}
-
-/* ----- Email Icon ----- */
-
-#email-icon {
-  transition: 0.5s;
-}
-
-#email-icon:hover {
-  transition: 0.5s;
-  transform: rotateX(30deg);
 }
 
 /* ----- Media screens ----- */

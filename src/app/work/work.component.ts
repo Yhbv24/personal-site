@@ -22,6 +22,8 @@ export class WorkComponent implements OnInit {
       this.laptopHover = false;
       this.hockeyTeamHover = false;
       this.shoeStoreHover = false;
+    } else if (this.bobRossHover) {
+      this.bobRossHover = true;
     } else {
       this.bobRossHover = false;
     }
@@ -33,6 +35,8 @@ export class WorkComponent implements OnInit {
       this.bobRossHover = false;
       this.laptopHover = false;
       this.shoeStoreHover = false;
+    } else if (this.hockeyTeamHover) {
+      this.hockeyTeamHover = true;
     } else {
       this.hockeyTeamHover = false;
     }
@@ -44,6 +48,8 @@ export class WorkComponent implements OnInit {
       this.laptopHover = false;
       this.bobRossHover = false;
       this.hockeyTeamHover = false;
+    } else if (this.hockeyTeamHover) {
+      this.hockeyTeamHover = true;
     } else {
       this.shoeStoreHover = false;
     }
